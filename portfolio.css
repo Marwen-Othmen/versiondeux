@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+a{
+    text-decoration:aliceblue;
+    color: gold;
+}
+body{
+    background-color:darkcyan;
+    color: floralwhite;
+}
+.presentation-info{ color:black;
+    display: flex;
+    justify-content:center;
+}
+.presentation-icon{color: darkred;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    position: fixed;
+    top: 50;
+    left: 100;
+    right: 0;
+}
+
+.presentation-icon div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+h2{color: black;
+ display: flex;
+ justify-content: center;
+}
+h4{color: black;
+    font-style: italic;
+    font: size 1000px; ;
+}
+li{color: darkblue;}
+
+table , td , th{
+      border:2px solid black;
+      text-align-last: center;
+      
+      
+    }
